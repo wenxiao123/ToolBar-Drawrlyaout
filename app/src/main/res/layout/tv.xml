@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/b01"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text"
+        android:textSize="25sp"
+        android:textColor="#0e0e0e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard
+        android:layout_centerInParent="true"
+        android:id="@+id/player_list_video"
+        android:layout_width="match_parent"
+        android:layout_height="220dp" />
+</RelativeLayout>

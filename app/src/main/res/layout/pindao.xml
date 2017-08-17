@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/close"
+        android:gravity="center"
+        android:layout_width="54dp"
+        android:layout_height="29dp"
+        android:textColor="@color/black"
+        android:text="关闭"
+        android:layout_alignParentTop="true" />
+        <TextView
+            android:layout_width="302dp"
+            android:layout_height="35dp"
+            android:textSize="52sp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+           android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="我的频道"
+            android:layout_alignParentTop="true"
+            android:id="@+id/textView" />
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ca1d1133"
+            android:textColor="#ffffff"
+            android:text=""
+            android:layout_alignParentTop="true"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="223dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View android:layout_height="5px"
+        android:background="#c2a0a0"
+        android:layout_width="fill_parent">
+    </View>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="频道推荐"
+            android:layout_alignParentTop="true"
+            />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recyclerView1"
+        android:layout_width="match_parent"
+        android:layout_height="258dp"/>
+</LinearLayout>
